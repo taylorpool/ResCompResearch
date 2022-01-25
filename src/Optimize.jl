@@ -1,5 +1,5 @@
 module Optimize
-include("ResComp.jl")
+import ResComp
 using LinearAlgebra
 using Base.Threads
 using PyCall
