@@ -1,0 +1,8 @@
+name = "ResCompResearch"
+uuid = "74af50b8-34f0-497e-b5ec-44a81ffe1a7d"
+authors = ["Taylor Pool <taylorpool.27@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+DynamicalSystems = "a8e5e381-9b82-4a3e-907d-c9280a78a3a5"
+ResComp = "5e056418-07d4-4936-a843-989fc06f8afb"
