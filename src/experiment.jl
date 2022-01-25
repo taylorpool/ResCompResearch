@@ -1,4 +1,4 @@
-include("CaseStudies.jl")
+import DynamicalSystems
 include("Optimize.jl")
 using Dates
 using PyCall
@@ -30,7 +30,7 @@ reservoir_dimension = experiment["reservoir_dimension"]
 results_directory = experiment["results_directory"]
 
 # Set the system of interest
-system = CaseStudies.get_system(
+system = DynamicalSystems.get_system(
     system_name, 
     system_duration 
 )
